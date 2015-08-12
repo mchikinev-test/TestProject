@@ -45,6 +45,11 @@ namespace WpfApplication1
             //myView = (CollectionView)CollectionViewSource.GetDefaultView(myItemsControl.ItemsSource);
             //myView.GroupDescriptions.Clear();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
     }
 
 }
